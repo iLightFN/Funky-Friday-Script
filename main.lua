@@ -32,7 +32,7 @@ if type(getconnections) ~= 'function' then return fail('Unsupported exploit (mis
 if type(getloadedmodules) ~= 'function' then return fail('Unsupported exploit (misssing "getloadedmodules")') end
 if type(getgc) ~= 'function' then return fail('Unsupported exploit (misssing "getgc")') end
 
-local library = urlLoad("https://raw.githubusercontent.com/iLightFN/Funky-Friday-Script/script/lua")
+local library = urlLoad("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua")
 
 local framework, scrollHandler
 local counter = 0
